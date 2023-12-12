@@ -1,0 +1,45 @@
+.redirect {
+  font-family: 'regular';
+  text-align: center;
+  margin-top: 30px;
+}
+
+.redirect a {
+  text-decoration: none;
+  color: #000;
+}
+
+.redirect a:hover {
+  color: #ccc;
+}
+
+.cardsButtonLogin {
+  background-color: #555;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.cardsButtonLogin img {
+  width: 32px;
+}
+
+.cardsButtonLogin span {
+  margin-left: auto;
+  color: white;
+  font-family: 'bold';
+  font-size: 18px;
+}
+
+.cardsButtonLogin:hover{
+  background-color: #ccc;
+}
+.cardsButtonLogin:hover span{
+  color: black;
+  text-decoration: underline;
+}
